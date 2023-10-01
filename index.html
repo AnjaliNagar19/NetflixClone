@@ -1,0 +1,473 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+
+        .background-container {
+            background-image: url("background\ image\ 1.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .background-overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .first img {
+            margin-top: 40px;
+            margin-left: 100px;
+        }
+
+        .option-bar {
+            margin: 20 10 0 800;
+            padding: 0.5%;
+            color: antiquewhite;
+            background-color: transparent;
+        }
+
+        .sign-up {
+            background-color: red;
+            padding: 0.5%;
+            color: antiquewhite
+        }
+
+        .second {
+            color: white;
+            text-align: center;
+           
+        }
+
+        h2 {
+            font-size: 40;
+            color: white;
+        }
+
+        p {
+            font-size: 25;
+            color: white;
+        }
+
+        .email {
+            background-color: transparent;
+            margin: 20px;
+            width: 400px;
+            color: antiquewhite;
+            border-radius: 5%;
+            padding: 20px;
+        }
+
+        .get-started {
+            background-color: red;
+            color: antiquewhite;
+            width: 250px;
+            font-size: 26;
+            border-radius: 5%;
+            border: none;
+            padding: 15px;
+        }
+
+        .third {
+            display: flex;
+            align-items: center;
+            padding-top: 72px;
+            padding-bottom: 72px;
+        }
+
+        .left {
+            color: antiquewhite;
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right1 {
+            position: relative;
+            text-align: center;
+            background-color: aliceblue;
+        }
+        .right1 img {
+            position: relative;
+            z-index: 99;
+        }
+
+        .right img {
+            max-width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        video {
+            width: 74%;
+            height: 97%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        .fourth {
+            display: flex;
+            align-content: center;
+            color: antiquewhite;
+            text-align: center;
+            padding-top: 72px;
+            padding-bottom: 72px;
+        }
+
+        .fourth-left {
+            position: relative;
+            margin-left: 30px;
+            width: 50%;
+        }
+
+        .fourth-right {
+            padding-top: 120px;
+        }
+
+        .strainger-things {
+            background-color: black;
+            display: flex;
+            position: absolute;
+            top: 300px;
+            left: 130px;
+            border: 2px solid grey;
+            border-radius: 8%;
+            width: 400px;
+            height: 150px;
+        }
+
+        .s-t-image {
+            width: 50;
+            height: auto;
+            padding: 10px;
+        }
+
+        .s-t-writing {
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        .downloading {
+            color: blue;
+            font-size: 15
+        }
+
+        .fifth {
+            padding: 100px;
+            display: flex;
+        }
+
+        .fifth-right {
+            padding-top: 150px;
+        }
+        .fifth-left {
+            position: relative;
+        }
+        .fifth-left img {
+            position: relative;
+            z-index: 99;
+        }
+        .fifth-left video {
+            width: 64%;
+            height: 66%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        .sixth {
+            padding: 100px;
+            display: flex;
+        }
+
+        .sixth-right {
+            padding-top: 150px;
+        }
+        .list{
+           background-color: rgb(33, 40, 40);
+            color:white;
+            font-size: 25;
+            margin: 10px;
+            margin-left: 150px;
+            width:70%;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            list-style-type: none;
+        
+        }
+        .seventh-question{
+            padding-left: 20px;
+        }
+        .footer{padding-top: 100px;}
+        .faq{
+            text-align: center;
+            
+        }
+        
+        .after-faq{
+            text-align: center;
+        }
+        .call{
+            font-size: 20;
+            padding-left: 30px;
+            margin-left: 60px;
+        }
+           
+        
+         a{
+            color:antiquewhite;
+            padding: 15px;
+            margin:10px
+
+        }
+        .footer-1{
+            width:300px;
+            height:150px;
+            float:left;
+            padding:20px;
+        
+            
+        }
+        .footer-2{
+            height: 150px;
+            float:left;
+            padding:20px;
+        }
+        .footer-3{
+            height: 150px;
+            float:left;
+            padding:20px;
+        }
+        .footer-4{
+            height: 150px;
+            float:left;
+            padding:20px;
+            margin-right: 300px;
+
+        }
+        .option-bar-2 {
+            margin: 20px;
+            padding: 0.5%;
+            color: antiquewhite;
+            background-color: transparent;
+            display:inline-block;
+        }
+        .footer-last{
+            margin:80px
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="background-container">
+        <div class="background-overlay">
+
+
+            <header>
+
+                <div class="first">
+                    <span>
+                        <img src="netflixlogo.png" width="150px" height="80px" alt="logo">
+                    </span>
+                    <span>
+                        <select class="option-bar">
+                            <option value="English">English</option>
+                            <option value="Hindi>">Hindi</option>
+                        </select>
+                        <button class="Sign-up" type="submit"> Sign up</button>
+
+                    </span>
+                </div>
+
+
+
+            </header>
+            <div class="second">
+
+                <h2> Unlimited movies, TV shows and more</h2>
+                <p>Watch anywhere. Cancel anytime.</p><br>
+                <p> Ready to watch? Enter your email to create or restart your membership.</p>
+                <input class="email" type="email" placeholder="Email Address">
+                <button class="get-started" type="submit">Get Started ></button>
+            </div>
+        </div>
+    </div>
+    <div class="third">
+        <div class="left">
+            <h2>Enjoy on your TV.</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+
+        <div class="right1">
+
+            <img src="tv2.png" alt="img">
+            <video control loop autoplay muted>
+                <source src="video new.mp4" type="video/mp4">
+            </video>
+        </div>
+
+
+
+    </div>
+    <div class="fourth">
+        <div class="fourth-left">
+            <img src="mobile-0819 (1).jpg" alt="mobile image">
+            <div class="strainger-things">
+                <div class="s-t-image">
+                    <img src="boxshot.png" alt="image" width="100">
+                </div>
+                <div class="s-t-writing">
+                    <h5>Stranger Things</h5>
+                    <h5 class="Downloading">Downloading...</h5>
+                </div>
+                <div class="s-t-download-icon">
+                    <img src="download-icon.gif" alt="icon">
+                </div>
+
+
+            </div>
+        </div>
+        <div class="fourth-right">
+            <h2>Download your shows to watch offline</h2>
+            <p>Save your favourites easily and always have something to watch.</p>
+        </div>
+
+
+    </div>
+    <hr width="100%" height="20px" color="grey">
+    <div class="fifth">
+        <div class="fifth-right">
+            <h2>Watch everywhere</h2>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="fifth-left">
+            <img src="apple tv image.png" alt="image">
+            <video control loop autoplay muted>
+                <source src="video-2-final.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <hr width="100%" height="20px" color="grey">
+    <div class="sixth">
+        <div class="sixth-left">
+            <img src="kids image.png" alt="Image">
+        </div>
+        <div class="sixth-right">
+
+            <h2>Create profiles for kids</h2>
+            <p>
+                Send children on adventures with their favourite characters in a space made just for them—free with your
+                membership.</p>
+
+        </div>
+    </div>
+    <hr width="100%" height="20px" color="grey">
+    <div class="seventh">
+        <h2 class="faq">Frequently Asked Questions</h2>
+        <div class="seventh-question">
+            <ul>
+               <div class="list"><li> What is Netflix?</li></div> 
+               <div class="list"><li> How much does it cost?</li></div> 
+               <div class="list"><li> Where can i watch?</li></div> 
+               <div class="list"><li> How do I cancel?</li></div> 
+               <div class="list"><li> What can i watch on Netflix?</li></div> 
+               <div class="list"><li> Is Netflix good for kids ?</li></div> 
+              
+              
+
+            </ul>
+        </div>
+        <div class="after-faq">
+            <p>Ready to watch? Enter your Email to create or restart your membership.</p>
+            <input class="email" type="email" placeholder="Email Address">
+            <button class="get-started" type="submit">Get Started ></button>
+
+        </div>
+
+    </div>
+    <hr width="100%" height="20px" color="grey">
+    
+    <footer class="footer">
+        <div>
+            <p class="call">Question ? Call
+                <a href="#"> 000-800-919-1694</a></p>
+            <div calss="footer-link">
+                <div class="footer-1">
+                     <ul>
+                    
+                            <li><a href="#">FAQ</a></li><br>
+                             <li><a href="#">Invester Relations</a></li><br>
+                             <li><a href="#">Privacy</a></li><br>
+                             <li><a href="#">Speed Test</a></li><br>
+                             
+                    
+                     </ul>
+                    
+                </div>
+                <div class="footer-2">
+                    <ul>
+                        <li><a href="#">Help Center</a></li><br>
+                        <li><a href="#">Jobs</a></li><br>
+                        <li><a href="#">Cookies Preferences</a></li><br>
+                        <li><a href="#">Legal Notices</a></li><br>
+                    </ul>
+                                     
+
+                </div>
+                <div class="footer-3">
+                    <ul>
+                        <li><a href="#">Account</a></li><br>
+                        <li><a href="#">Ways to watch</a></li><br>
+                        <li><a href="#">Corporate Information</a></li><br>
+                        <li><a href="#">Only on Netflix</a></li><br>
+                    </ul>
+                                     
+
+                </div>
+                <div class="footer-4">
+                    <ul>
+                        <li><a href="#">Media Center</a></li><br>
+                        <li><a href="#">Term of use</a></li><br>
+                        <li><a href="#">Contact us</a></li><br>
+                        
+                    </ul>
+                                     
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <div class="footer-last">
+            <select class="option-bar-2">
+                <option value="English">English</option>
+                <option value="Hindi>">Hindi</option>
+            </select>
+            <p style="font-size: 16;"> &nbsp; Netflix India</p>
+        </div>
+    
+
+</body>
+
+</html>
