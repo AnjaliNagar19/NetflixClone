@@ -1,0 +1,270 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.background-container {
+    background-image: url("background\ image\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.first img {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.option-bar {
+    margin: 20 10 0 800;
+    padding: 0.5%;
+    color: antiquewhite;
+    background-color: transparent;
+}
+
+.sign-up {
+    background-color: red;
+    padding: 0.5%;
+    color: antiquewhite
+}
+
+.second {
+    color: white;
+    text-align: center;
+   
+}
+
+h2 {
+    font-size: 40;
+    color: white;
+}
+
+p {
+    font-size: 25;
+    color: white;
+}
+
+.email {
+    background-color: transparent;
+    margin: 20px;
+    width: 400px;
+    color: antiquewhite;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.get-started {
+    background-color: red;
+    color: antiquewhite;
+    width: 250px;
+    font-size: 26;
+    border-radius: 5%;
+    border: none;
+    padding: 15px;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.left {
+    color: antiquewhite;
+    flex: 1;
+    padding: 20px;
+}
+
+.right1 {
+    position: relative;
+    text-align: center;
+    background-color: aliceblue;
+}
+.right1 img {
+    position: relative;
+    z-index: 99;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+video {
+    width: 74%;
+    height: 97%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.fourth {
+    display: flex;
+    align-content: center;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.fourth-left {
+    position: relative;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.fourth-right {
+    padding-top: 120px;
+}
+
+.strainger-things {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    border: 2px solid grey;
+    border-radius: 8%;
+    width: 400px;
+    height: 150px;
+}
+
+.s-t-image {
+    width: 50;
+    height: auto;
+    padding: 10px;
+}
+
+.s-t-writing {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.downloading {
+    color: blue;
+    font-size: 15
+}
+
+.fifth {
+    padding: 100px;
+    display: flex;
+}
+
+.fifth-right {
+    padding-top: 150px;
+}
+.fifth-left {
+    position: relative;
+}
+.fifth-left img {
+    position: relative;
+    z-index: 99;
+}
+.fifth-left video {
+    width: 64%;
+    height: 66%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.sixth {
+    padding: 100px;
+    display: flex;
+}
+
+.sixth-right {
+    padding-top: 150px;
+}
+.list{
+   background-color: rgb(33, 40, 40);
+    color:white;
+    font-size: 25;
+    margin: 10px;
+    margin-left: 150px;
+    width:70%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+
+}
+.seventh-question{
+    padding-left: 20px;
+}
+.footer{padding-top: 100px;}
+.faq{
+    text-align: center;
+    
+}
+
+.after-faq{
+    text-align: center;
+}
+.call{
+    font-size: 20;
+    padding-left: 30px;
+    margin-left: 60px;
+}
+   
+
+ a{
+    color:antiquewhite;
+    padding: 15px;
+    margin:10px
+
+}
+.footer-1{
+    width:300px;
+    height:150px;
+    float:left;
+    padding:20px;
+
+    
+}
+.footer-2{
+    height: 150px;
+    float:left;
+    padding:20px;
+}
+.footer-3{
+    height: 150px;
+    float:left;
+    padding:20px;
+}
+.footer-4{
+    height: 150px;
+    float:left;
+    padding:20px;
+    margin-right: 300px;
+
+}
+.option-bar-2 {
+    margin: 20px;
+    padding: 0.5%;
+    color: antiquewhite;
+    background-color: transparent;
+    display:inline-block;
+}
+.footer-last{
+    margin:80px
+}
